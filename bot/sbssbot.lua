@@ -256,25 +256,14 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {199642007,282834747},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
     An Advanced Anti Spam Bot Forked On TeleSeed
     
-    Develpoed By:
-    @Mr_Ah_S
     
-    Special Thanks To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
-    Powered By @Sbss_Team
-    
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    Powered By
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -348,8 +337,9 @@ See Patterns In Github
 فیلتر – {کلمه)
 حذف فیلتر یک کلمه
 لیست فیلتر
-لیست کلمات فیلتر شده
 
+لیست کلمات فیلتر شده
+		پیام بدید @sudo_khofچهت خرید به 
 ]],
     help_text = [[
     English Commands:
@@ -429,7 +419,8 @@ ____________
 Send /share to get robot number
 ____________
 You can use [ ! , / or # ]or don’t use them
-More Details on @Sbss_Team
+More Details on @safroid_group
+		@sudo_khof
 ]]
   }
   serialize_to_file(config, './data/config.lua')
